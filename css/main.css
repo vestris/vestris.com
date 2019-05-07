@@ -451,8 +451,9 @@ ul li {
 	 Teams
 -------------------------------------------------------------------------------*/
 .product {
-	max-width: 270px;
+	max-width: 85%;
 	text-align: center;
+	margin: auto;
 }
 .product-content {
 	margin-top: 20px;
