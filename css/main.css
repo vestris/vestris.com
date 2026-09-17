@@ -553,6 +553,19 @@ ul li {
     margin-bottom: 12px;
 }
 
+.products a {
+    display: block;
+}
+
+.products a:focus {
+    outline: 2px solid #3bc492;
+    outline-offset: 8px;
+}
+
+.products a:focus:not(:focus-visible) {
+    outline: none;
+}
+
 .products .row > [class*="col-"] {
     float: none;
 }
